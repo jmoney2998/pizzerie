@@ -118,3 +118,7 @@ h2 a {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
 }
+table{
+	border:2px;
+	bordercolor:black;
+}
