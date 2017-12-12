@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Ricerca</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="stili/style.css">
 		<script>
 			function controllo_campi()
 			{
@@ -70,7 +70,7 @@
 			# Decodifico la stringa json e la salvo nella variabile $data
 			$data = json_decode($json);
 			# Stampa della tabella delle pizzerie.
-			echo "<table class='table'>";
+			echo "<table table border=2px bordercolor=black>";
 				echo "<tr>";
 					echo "<th>NOME</th>";
 					echo "<th>LATITUDINE</th>";
